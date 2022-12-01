@@ -10,166 +10,164 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="tastatur" class="container">MEINE TASTATUR</div>
+    <div id="tastatur" class="container">MY KEYBOARD</div>
     <div class="container">
         <div id="text">
            
         </div>
     </div>
     <div class="container">
-        <div id="row_1" class="row">
-            <div onclick="choose('1')" class="col-sm">
-                    1
-            </div>
-            <div onclick="choose('2')" class="col-sm">
-                2
-            </div>
-            <div onclick="choose('3')" class="col-sm">
-                3
-            </div>
-            <div onclick="choose('4')" class="col-sm">
-                4
-            </div>
-            <div onclick="choose('5')" class="col-sm">
-                5
-            </div>
-            <div onclick="choose('6')" class="col-sm">
-                6
-            </div>
-            <div onclick="choose('7')" class="col-sm">
-                7
-            </div>
-            <div onclick="choose('8')" class="col-sm">
-                8
-            </div>
-            <div onclick="choose('9')" class="col-sm">
-                9
-            </div>
-            <div onclick="choose('0')" class="col-sm">
-                0
-            </div>
-            <div onclick="choose('ß')" class="col-sm">
-                ß
-            </div>
-            
+
+        <div class="first_row">
+            <div onclick="choose('1')" class="letter">
+                1
+        </div>
+        <div onclick="choose('2')" class="letter">
+            2
+        </div>
+        <div onclick="choose('3')" class="letter">
+            3
+        </div>
+        <div onclick="choose('4')" class="letter">
+            4
+        </div>
+        <div onclick="choose('5')" class="letter">
+            5
+        </div>
+        <div onclick="choose('6')" class="letter">
+            6
+        </div>
+        <div onclick="choose('7')" class="letter">
+            7
+        </div>
+        <div onclick="choose('8')" class="letter">
+            8
+        </div>
+        <div onclick="choose('9')" class="letter">
+            9
+        </div>
+        <div onclick="choose('0')" class="letter">
+            0
+        </div>
+        <div onclick="choose('ß')" class="letter">
+            ß
+        </div>
         </div>
 
-        <div class="row">
-            <div onclick="choose('q')" class="col-sm">
-                    q
-            </div>
-            <div onclick="choose('w')" class="col-sm">
-                w
-            </div>
-            <div onclick="choose('e')" class="col-sm">
-                e
-            </div>
-            <div onclick="choose('r')" class="col-sm">
-                r
-            </div>
-            <div onclick="choose('t')" class="col-sm">
-                t
-            </div>
-            <div onclick="choose('z')" class="col-sm">
-                z
-            </div>
-            <div onclick="choose('u')" class="col-sm">
-                u
-            </div>
-            <div onclick="choose('i')" class="col-sm">
-                i
-            </div>
-            <div onclick="choose('o')" class="col-sm">
-                o
-            </div>
-            <div onclick="choose('p')" class="col-sm">
-                p
-            </div>
-            <div onclick="choose('ü')" class="col-sm">
-                ü
-            </div>
-            
+        <div class="second_row">
+            <div onclick="choose('q')" class="letter">
+                q
+        </div>
+        <div onclick="choose('w')" class="letter">
+            w
+        </div>
+        <div onclick="choose('e')" class="letter">
+            e
+        </div>
+        <div onclick="choose('r')" class="letter">
+            r
+        </div>
+        <div onclick="choose('t')" class="letter">
+            t
+        </div>
+        <div onclick="choose('z')" class="letter">
+            z
+        </div>
+        <div onclick="choose('u')" class="letter">
+            u
+        </div>
+        <div onclick="choose('i')" class="letter">
+            i
+        </div>
+        <div onclick="choose('o')" class="letter">
+            o
+        </div>
+        <div onclick="choose('p')" class="letter">
+            p
+        </div>
+        <div onclick="choose('ü')" class="letter">
+            ü
+        </div>
         </div>
 
-        <div id="row_2" class="row">
-            <div onclick="choose('a')" class="col-sm">
+        <div class="third_row">
+            <div onclick="choose('a')" class="letter">
                 a
             </div>
-            <div onclick="choose('s')" class="col-sm">
+            <div onclick="choose('s')" class="letter">
                 s
             </div>
-            <div onclick="choose('d')" class="col-sm">
+            <div onclick="choose('d')" class="letter">
                 d
             </div>
-            <div onclick="choose('f')" class="col-sm">
+            <div onclick="choose('f')" class="letter">
                 f
             </div>
-            <div onclick="choose('g')" class="col-sm">
+            <div onclick="choose('g')" class="letter">
                 g
             </div>
-            <div onclick="choose('h')" class="col-sm">
+            <div onclick="choose('h')" class="letter">
                 h
             </div>
-            <div onclick="choose('j')" class="col-sm">
+            <div onclick="choose('j')" class="letter">
                 j
             </div>
-            <div onclick="choose('k')" class="col-sm">
+            <div onclick="choose('k')" class="letter">
                 k
             </div>
-            <div onclick="choose('l')" class="col-sm">
+            <div onclick="choose('l')" class="letter">
                 l
             </div>
-            <div onclick="choose('ö')" class="col-sm">
+            <div onclick="choose('ö')" class="letter">
                 ö
             </div>
-            <div onclick="choose('ä')" class="col-sm">
+            <div onclick="choose('ä')" class="letter">
                 ä
             </div>
-            <div onclick="delete_sym()" class="col-sm">
-                löschen
+            <div id="del" onclick="delete_sym()" class="letter">
+                del
             </div>
         </div>
 
-        <div class="row">
-            <div id="bigger_symbol" onclick="bigger()" class="col-sm">
+        <div class="fourth_row">
+            <div id="bigger_symbol" onclick="bigger()" class="letter">
                 ^ 
             </div>
-            <div onclick="choose('y')" class="col-sm">
+            <div onclick="choose('y')" class="letter">
                 y
             </div>
-            <div onclick="choose('x')" class="col-sm">
+            <div onclick="choose('x')" class="letter">
                 x
             </div>
-            <div onclick="choose('c')" class="col-sm">
+            <div onclick="choose('c')" class="letter">
                 c
             </div>
-            <div onclick="choose('v')" class="col-sm">
+            <div onclick="choose('v')" class="letter">
                 v
             </div>
-            <div onclick="choose('b')" class="col-sm">
+            <div onclick="choose('b')" class="letter">
                 b
             </div>
-            <div onclick="choose('n')" class="col-sm">
+            <div onclick="choose('n')" class="letter">
                 n
             </div>
-            <div onclick="choose('m')" class="col-sm">
+            <div onclick="choose('m')" class="letter">
                 m
             </div>
-            <div onclick="choose(',')" class="col-sm">
+            <div onclick="choose(',')" class="letter">
                 ,
             </div>
-            <div onclick="choose('.')" class="col-sm">
+            <div onclick="choose('.')" class="letter">
                 .
             </div>
-            <div onclick="choose('-')" class="col-sm">
+            <div onclick="choose('-')" class="letter">
                 -
             </div>
-
         </div>
-        <div class="row">
-            <div onclick="choose(' ')" class="col-sm">
-                leertaste
-            </div>
+        <div class="fifth_row"></div>
+                <div id="space" onclick="choose(' ')" class="letter">
+                    space
+                </div>
         </div>
     </div>
 

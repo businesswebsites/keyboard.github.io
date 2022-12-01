@@ -5,6 +5,7 @@
     background-color: lightgrey;
     margin: 3px;
     text-align: center;
+    width: 8.3%;
 }
 
 .col-sm:hover{
@@ -37,4 +38,48 @@ body{
     color: wheat;
     font-size: 40px;
     text-align: center;
+}
+
+.letter{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: 3px;
+    text-align: center;
+    width: 8%;
+}
+
+#del{
+    width: 16%;
+}
+
+.first_row{
+    display:flex;
+    justify-content: center;
+}
+
+.second_row{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.third_row{
+    display:flex;
+    justify-content: center;
+}
+
+.fourth_row{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#space{
+    width: 96%;
 }
