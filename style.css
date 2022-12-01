@@ -43,11 +43,11 @@ body{
 .letter{
     font-size: 30px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: lightgrey;
-    margin: 3px;
+    margin: 2px;
     text-align: center;
-    width: 8%;
+    width: 8.2%;
 }
 
 #del{
@@ -81,5 +81,5 @@ body{
     overflow-x: hidden;
 }
 #space{
-    width: 96%;
+    width: 100%;
 }
